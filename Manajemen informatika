@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+   float celcius;
+	 float fahrenheit;
+	 float reamur;
+	 celcius=0;
+   printf("================================================================================");
+   printf("\n");
+	 printf("Konversi Suhu Celcius ke Fahrenheit dan Reamur""\n""Masukan data celcius yang akan dikonversi""\n");
+   printf("================================================================================");
+		  scanf("%f",&celcius);
+	 fahrenheit=celcius*1.8+32;
+	 reamur=celcius*0.8;
+	 printf("Jadi %2.2f C sama dengan %2.2f F dan %2.2f R",celcius,fahrenheit,reamur);
+   printf("\n");
+   printf("================================================================================");
+   printf("BY: Wahyu Adi Prabowo""\n""Manajemen Informatika");
+   getch();
+   }
